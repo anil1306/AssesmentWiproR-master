@@ -14,7 +14,7 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".activities.MainFeedActivity"
-            android:screenOrientation="portrait">
+            android:configChanges="orientation|keyboardHidden|screenSize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -23,7 +23,7 @@
         </activity>
         <activity
             android:name=".activities.DisplayImageActivity"
-            android:screenOrientation="portrait">
+            android:configChanges="orientation|keyboardHidden|screenSize">
         </activity>
     </application>
 </manifest>
